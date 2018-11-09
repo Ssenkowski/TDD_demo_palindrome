@@ -1,7 +1,7 @@
 require_relative 'palindrome'  #Why relative and not just require?
 
 RSpec.describe Palindrome  do
-	context "test word is a palindrome" do # The it "" do block is a basic way to write a unit test.
+	context "test word is a palindrome" do 
 	  it "should read the same forwards as backwards" do
 	  	test_word = "Hannah"
 	  	result = Palindrome.palindrome? test_word
